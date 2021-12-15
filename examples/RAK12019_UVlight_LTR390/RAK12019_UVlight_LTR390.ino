@@ -40,7 +40,7 @@ void setup() {
   delay(300);
 
   Serial.println("Rak12019 test");
-  if ( ! ltr.begin() ) {
+  if ( ! ltr.init() ) {
     Serial.println("Couldn't find LTR sensor!");
     while (1) delay(10);
   }

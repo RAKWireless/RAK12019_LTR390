@@ -89,7 +89,7 @@ UVlight_LTR390 ltr = UVlight_LTR390();
 
 [...]
 
-  if (! ltr.begin()) {
+  if (! ltr.init()) {
     Serial.println("Couldn't find LTR sensor!");
     while (1) delay(10);
   }
