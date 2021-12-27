@@ -1,3 +1,34 @@
+/** Based on Adafruit LTR390 Arduino Library **/
+/** Changed to work with RAKWireless RAK12019 UV Light Sensor **/
+/*!
+ *  @file Adafruit_LTR390.cpp
+ *
+ *  @mainpage Adafruit LTR390 I2C UV and Light Sensor
+ *
+ *  @section intro_sec Introduction
+ *
+ * 	I2C Driver for the LTR390 I2C UV and Light sensor
+ *
+ * 	This is a library for the Adafruit LTR390 breakout:
+ * 	https://www.adafruit.com/product/4831
+ *
+ * 	Adafruit invests time and resources providing this open source code,
+ *  please support Adafruit and open-source hardware by purchasing products from
+ * 	Adafruit!
+ *
+ *  @section author Author
+ *
+ *  Limor Fried (Adafruit Industries)
+ *
+ * 	@section license License
+ *
+ * 	BSD (see license.txt)
+ *
+ * 	@section  HISTORY
+ *
+ *     v1.0 - First release
+ */
+
 #include "UVlight_LTR390.h"
 
 UVlight_LTR390::UVlight_LTR390(int addr) {
